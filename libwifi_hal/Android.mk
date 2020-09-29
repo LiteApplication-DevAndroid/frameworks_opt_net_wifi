@@ -124,6 +124,7 @@ LOCAL_SHARED_LIBRARIES := \
     liblog \
     libnl \
     libutils \
+    libcld80211 \
     $(VENDOR_LOCAL_SHARED_LIBRARIES)
 LOCAL_SRC_FILES := \
     driver_tool.cpp \
